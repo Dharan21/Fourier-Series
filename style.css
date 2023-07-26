@@ -1,0 +1,30 @@
+body {
+    background: black;
+    overflow: hidden;
+}
+
+#canvas1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+}
+
+.inputs {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+}
+
+.input-circles, .input-speed {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type='range'] {
+    margin-top: 10px;
+    width: 200px;
+}

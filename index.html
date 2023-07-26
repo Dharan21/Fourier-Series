@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fouries Series</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="canvas1"></canvas>
+    <div class="inputs">
+        <div class="input-circles">
+            <label for="circles">Number of circles (between 2 and 30)</label>
+            <input type="range" name="circles" id="circles" min="2" max="30" step="1" value="2">
+        </div>
+        <div class="input-speed">
+            <label for="speed">Wave speed &Theta;  (between 2 and 10):</label>
+            <input type="range" name="speed" id="speed" min="2" max="10" step="1" value="2">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
